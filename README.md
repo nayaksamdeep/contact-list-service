@@ -3,8 +3,7 @@ Basic Contact List Web Service
 
 It provides a simple REST API with Go using:
 
-Gin Framework
-Embedded Storm/bolt DB
+Gin Framework and Embedded Storm/bolt DB
 
 API list
 GET : Get all Contacts
