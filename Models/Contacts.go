@@ -1,7 +1,7 @@
 package Models
 
 import (
-	"../Config"
+        "github.com/nayaksamdeep/contact-list-service/Config"
 	"fmt"
 	_ "github.com/lib/pq"
 )

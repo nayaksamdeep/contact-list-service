@@ -1,7 +1,7 @@
 package Routes
 
 import (
-	"../Controllers"
+        "github.com/nayaksamdeep/contact-list-service/Controllers"
 	"github.com/gin-gonic/gin"
 )
 
