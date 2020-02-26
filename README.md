@@ -6,11 +6,12 @@ It provides a simple REST API with Go using:
 Gin Framework and Postgress DB
 
 API list
-GET : Get all Contacts
-POST : Create a Contact
-GET : Get a Contact
-PUT : Update a Contact
-DELETE : Delete a Contact
+
+- GET : Get all Contacts
+- POST : Create a Contact
+- GET : Get a Contact
+- PUT : Update a Contact
+- DELETE : Delete a Contact
 
 Learning Objectives
 
