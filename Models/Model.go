@@ -10,3 +10,4 @@ type Contact struct {
 func (b *Contact) TableName() string {
 	return "contact"
 }
+

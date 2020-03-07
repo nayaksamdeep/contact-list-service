@@ -2,7 +2,6 @@ package Controllers
 
 import (
 	"net/http"
-
         "github.com/nayaksamdeep/contact-list-service/Models"
 	"github.com/gin-gonic/gin"
 )

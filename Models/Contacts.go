@@ -3,7 +3,7 @@ package Models
 import (
         "github.com/nayaksamdeep/contact-list-service/Config"
 	"fmt"
-	_ "github.com/lib/pq"
+	_"github.com/mattn/go-sqlite3"
 )
 
 func GetAllContacts(contact *[]Contact) (err error) {

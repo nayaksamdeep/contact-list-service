@@ -1,7 +1,7 @@
 package Config
 
 import (
-	"fmt"
+//	"fmt"
 
 	"github.com/jinzhu/gorm"
 )
@@ -9,6 +9,8 @@ import (
 var DB *gorm.DB
 
 // DBConfig represents db configuration
+
+/*
 type DBConfig struct {
 	Host     string
 	Port     int
@@ -20,7 +22,7 @@ type DBConfig struct {
 func BuildDBConfig() *DBConfig {
 	dbConfig := DBConfig{
 		Host:     "localhost",
-		Port:     4444,
+		Port:     5432,
 		User:     "postgres",
 		DBName:   "Contacts",
 		Password: "passwd",
@@ -30,7 +32,7 @@ func BuildDBConfig() *DBConfig {
 
 func DbURL(dbConfig *DBConfig) string {
 	return fmt.Sprintf(
-		"%s:%s@tcp(%s:%d)/%s?charset=utf8&parseTime=True&loc=Local",
+		"%s:%s@tcp(%s:%d)/%s?charset=utf8&parseTime=True&loc=Local&sslmode=disable",
 		dbConfig.User,
 		dbConfig.Password,
 		dbConfig.Host,
@@ -38,3 +40,5 @@ func DbURL(dbConfig *DBConfig) string {
 		dbConfig.DBName,
 	)
 }
+*/
+

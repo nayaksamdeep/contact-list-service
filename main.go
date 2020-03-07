@@ -13,6 +13,7 @@ import  (
      "github.com/nayaksamdeep/contact-list-service/Models"
      "github.com/nayaksamdeep/contact-list-service/Routes"
      "github.com/jinzhu/gorm"
+     _"github.com/mattn/go-sqlite3"
 )
 
 var err error
@@ -20,7 +21,7 @@ var err error
 func main() {
 
 	// Creating a connection to the database
-	Config.DB, err = gorm.Open("postgres", Config.DbURL(Config.BuildDBConfig()))
+	Config.DB, err = gorm.Open("sqlite3", "./gorm.db")
 
 	if err != nil {
                 log.Fatal(err)
@@ -37,4 +38,3 @@ func main() {
         // running
         r.Run() 
 }
-
