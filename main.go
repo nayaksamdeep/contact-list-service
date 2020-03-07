@@ -1,7 +1,5 @@
 /*
- * This program measures the number of glasses of water a person drinks a day
- * It will an user to input the number of glasses he has drank
- * It will also show him the total number of cups he has consumed for the day
+ * This program creates a webapp to store and retrieve visiting cards
  */
 
 package main
