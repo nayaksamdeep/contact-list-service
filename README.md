@@ -3,7 +3,7 @@ Basic Contact List Web Service
 
 It provides a simple REST API with Go using:
 
-Gin Framework and Postgress DB
+Gin Framework and SQLite DB
 
 API list
 
