@@ -16,6 +16,7 @@ API list
 Learning Objectives
 
 - CRUD Operations using external DB
-- REST API and Controllers
+- How to define REST API  
+- Web Servers and Controllers
 - Hands on with tools such as Postman
 - Code Layout using Sub Directory and Local Package
